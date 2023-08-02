@@ -1,0 +1,10 @@
+coolumn :
+
+id  query                   type     tag        subject       predicate   object
+==  ======================  =======  ========== =========     =========   =======
+1  reetings teacher,        gr,gr    VBZ,NNP,   kind,password please,     again,
+   I want to ask ..                  NNP,PRP,   Nur,Alma,     please,     again,
+   what kind of password             NNP,NNP,.  Batrisya,     please,     again,
+   is Nur Alma Batrisya?                        share,        please,     again,
+   Can you please share                                       please      again
+   again

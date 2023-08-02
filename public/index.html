@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Realtime Data</title>
+</head>
+<body>
+    <h1>Realtime Data</h1>
+    <div id="output"></div>
+    <script>
+        var source = new EventSource('realtime.php?action=realtime');
+        source.addEventListener('message', function(event) {
+            document.getElementById('output').innerHTML += event.data + '<br>';
+        });
+    </script>
+</body>
+</html>

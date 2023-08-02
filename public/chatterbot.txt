@@ -1,0 +1,4 @@
+pip install chatterbot==1.0.4
+pip install sqlalchemy --upgrade
+pip install pytz
+python3 -m spacy download en
